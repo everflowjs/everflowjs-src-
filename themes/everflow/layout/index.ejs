@@ -1,0 +1,59 @@
+<main role="main">
+  <div class="sidebar">
+    <div class="sidebar-inner-index">
+      <ul class="main-menu">
+        <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+      </ul>
+    </div>
+  </div>
+
+  <div id="hero">
+    <div class="inner">
+      <div class="left">
+        <img class="hero-logo" src="<%- url_for("/images/logo.png") %>" alt="everflow logo">
+      </div><div class="right">
+        <h2 class="vue">Everflow</h2>
+        <h1>
+          The Modular,<br>Scalable VueJS Framework
+        </h1>
+        <p>
+          <a class="button white" href="<%- url_for("/v4/guide/") %>">GETTING STARTED</a>
+          <a class="button gray has-icon" href="https://github.com/atomhash/everflow" target="_blank" rel="noopener">
+            <%- partial('icons/github-dark') %>
+            GITHUB</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="highlights">
+    <div class="inner">
+      <div class="point">
+        <h2>Approachable</h2>
+        <p>Already know vue.js? Read the guide and start building things in no time!</p>
+      </div>
+
+      <div class="point">
+        <h2>Modular</h2>
+        <p>Create modules to help contain your code and define requirements.</p>
+      </div>
+
+      <div class="point">
+        <h2>TypeScript</h2>
+        <p>
+          Enforces TypeScript usage for scalability, type checking, and versatility
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer id="footer" role="contentinfo">
+  <p>
+    <a class="social-icon" href="https://github.com/atomhash/everflow" target="_blank" rel="noopener">
+      <%- partial('icons/github') %>
+    </a>
+  </p>
+  <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a><br>
+  Copyright &copy; 2018-<%- new Date().getFullYear() %> AtomHash</p>
+</footer>

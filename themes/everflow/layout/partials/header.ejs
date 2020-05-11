@@ -1,0 +1,9 @@
+<header id="header">
+  <a id="logo" href="<%- url_for("/") %>">
+    <img src="<%- url_for("/images/logo.png") %>" alt="everflow logo">
+    <span>Everflow</span>
+  </a>
+  <ul id="nav">
+    <%- partial('partials/main_menu', { context: 'nav' }) %>
+  </ul>
+</header>
