@@ -11,7 +11,7 @@ order: 2
 
 Everflow is a **batteries included** framework for building enterprise grade front-end applications with TypeScript and Vue.js.
 
-Scalibity defined: `The capacity to be changed in size or scale` and containerizing code is key to this. Why develop code multiple times when you can just re-use it, and modularbility is key here.
+Scalability defined: `The capacity to be changed in size or scale` and containerizing code is key to this. Why develop code multiple times when you can just re-use it, and modularbility is key here.
 
 ## Getting Started
 
